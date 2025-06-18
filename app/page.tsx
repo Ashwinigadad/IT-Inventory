@@ -8,6 +8,7 @@ import WhyWeBuilt from "./components/WhyWeBuiltThis";
 import IndustriesSection from "./components/IndustriesSection";
 import KeyFeatures from "./components/KeyFeatures";
 import PricingOverview from "./components/PricingOverview";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <IndustriesSection />
       <KeyFeatures />
       <PricingOverview />
+      <Testimonials />
     </div>
   );
 }

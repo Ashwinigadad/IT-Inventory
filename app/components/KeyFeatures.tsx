@@ -39,7 +39,7 @@ export default function KeyFeatures() {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 text-center w-full text-black">
+    <section id="features" className="bg-white py-16 px-6 text-center w-full text-black">
       <motion.h1
         className="text-3xl font-bold mb-10"
         initial={{ opacity: 0, y: -30 }}

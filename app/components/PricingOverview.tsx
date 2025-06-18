@@ -44,7 +44,7 @@ export default function PricingOverview() {
   ];
 
   return (
-    <section className="bg-white py-16 text-center w-full overflow-hidden">
+    <section id="pricing" className="bg-white py-16 text-center w-full overflow-hidden">
       <h1 className="text-4xl font-bold text-black mb-3">Pricing Overview</h1>
       <p className="text-[#6C63FF] mb-10 text-2xl">
         Simple, scalable plans designed to fit your organization’s needs.
