@@ -3,7 +3,7 @@ import React from "react";
 
 export default function WhyWeBuilt() {
   return (
-    <section className="bg-white px-6 md:px-16 w-full">
+    <section className="bg-white px-6 md:px-16 w-full h-120">
   <div className="max-w-5xl mx-auto">
     <h2 className="text-3xl font-bold text-center text-gray-900 mb-6">
       Why We Built This
@@ -14,7 +14,7 @@ export default function WhyWeBuilt() {
           We built this platform to change that. Our mission is to give IT teams
           the tools they need to:
         </p>
-    <div className="border border-gray-300 rounded-lg p-6 max-w-3xl mx-auto space-y-4">
+    <div className="border border-[#6C63FF] rounded-lg p-6 max-w-3xl mx-auto space-y-4">
           {["Gain complete visibility into their assets",
             "Eliminate redundancy and reduce risk",
             "Save time and streamline operations",

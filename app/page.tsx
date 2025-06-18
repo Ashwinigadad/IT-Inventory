@@ -5,6 +5,7 @@ import Hero from "./components/HeroSection";
 import Dashboard from "./components/DashboardCard";
 import About from "./components/AboutSection";
 import WhyWeBuilt from "./components/WhyWeBuiltThis";
+import IndustriesSection from "./components/IndustriesSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Dashboard />
       <About />
       <WhyWeBuilt />
+      <IndustriesSection />
     </div>
   );
 }
