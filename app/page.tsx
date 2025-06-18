@@ -6,6 +6,7 @@ import Dashboard from "./components/DashboardCard";
 import About from "./components/AboutSection";
 import WhyWeBuilt from "./components/WhyWeBuiltThis";
 import IndustriesSection from "./components/IndustriesSection";
+import KeyFeatures from "./components/KeyFeatures";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <WhyWeBuilt />
       <IndustriesSection />
+      <KeyFeatures />
     </div>
   );
 }
