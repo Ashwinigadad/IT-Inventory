@@ -1,6 +1,14 @@
 "use client";
 
-import { FaDatabase, FaSyncAlt, FaClipboardCheck, FaUserShield, FaFileAlt, FaPuzzlePiece } from "react-icons/fa";
+import { motion } from "framer-motion";
+import {
+  FaDatabase,
+  FaSyncAlt,
+  FaClipboardCheck,
+  FaUserShield,
+  FaFileAlt,
+  FaPuzzlePiece,
+} from "react-icons/fa";
 
 export default function KeyFeatures() {
   const features = [
@@ -32,16 +40,30 @@ export default function KeyFeatures() {
 
   return (
     <section className="bg-white py-16 px-6 text-center w-full text-black">
-      <h2 className="text-3xl font-bold mb-10">Key Features</h2>
+      <motion.h1
+        className="text-3xl font-bold mb-10"
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        Key Features
+      </motion.h1>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {features.map((feature, index) => (
-          <div
+          <motion.div
             key={index}
             className="bg-white border border-gray-200 p-6 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition duration-300"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.03 }}
           >
             <div className="mb-4 flex justify-center">{feature.icon}</div>
             <p className="font-medium">{feature.label}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

@@ -7,6 +7,7 @@ import About from "./components/AboutSection";
 import WhyWeBuilt from "./components/WhyWeBuiltThis";
 import IndustriesSection from "./components/IndustriesSection";
 import KeyFeatures from "./components/KeyFeatures";
+import PricingOverview from "./components/PricingOverview";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WhyWeBuilt />
       <IndustriesSection />
       <KeyFeatures />
+      <PricingOverview />
     </div>
   );
 }
