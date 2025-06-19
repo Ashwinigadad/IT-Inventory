@@ -1,11 +1,13 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { motion } from "framer-motion";
 
 export default function FAQs() {
   const faqs = [
@@ -38,9 +40,15 @@ export default function FAQs() {
   return (
     <section className="bg-white py-16 px-6 max-w-5xl mx-auto text-black">
       <h2 className="text-3xl font-bold text-center mb-10">FAQs</h2>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Info Section */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           <h4 className="font-semibold text-lg mb-4 text-[#6C63FF]">
             Your Questions, Answered with Clarity and Confidence
           </h4>
@@ -54,27 +62,40 @@ export default function FAQs() {
             <br />
             Let’s Talk. We’d love to have a conversation tailored to your needs.
           </h4>
-        </div>
+        </motion.div>
 
         {/* Accordion Section */}
-        <div className="bg-[#6C63FF] rounded-xl p-4 text-white">
+        <motion.div
+          className="bg-[#6C63FF] rounded-xl p-4 text-white"
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           <Accordion type="single" collapsible className="space-y-2">
             {faqs.map((faq, index) => (
-              <AccordionItem
+              <motion.div
                 key={index}
-                value={`faq-${index}`}
-                className="border-b border-white/20"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1, duration: 0.4 }}
+                viewport={{ once: true }}
               >
-                <AccordionTrigger className="text-left text-white hover:no-underline hover:text-white">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-white text-sm">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
+                <AccordionItem
+                  value={`faq-${index}`}
+                  className="border-b border-white/20"
+                >
+                  <AccordionTrigger className="text-left text-white hover:no-underline hover:text-white">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-white text-sm">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              </motion.div>
             ))}
           </Accordion>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
