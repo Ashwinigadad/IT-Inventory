@@ -49,19 +49,19 @@ export default function FAQs() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h4 className="font-semibold text-lg mb-4 text-[#6C63FF]">
+          <h3 className="font-semibold text-lg mb-4 text-[#6C63FF]">
             Your Questions, Answered with Clarity and Confidence
-          </h4>
+          </h3>
           <p className="text-[#6C63FF]">
             We're dedicated to supporting every aspect of your IT journey from
             onboarding to optimization.
           </p>
           <br />
-          <h4 className="font-semibold text-lg mb-4 text-[#6C63FF]">
+          <h3 className="font-semibold text-lg mb-4 text-[#6C63FF]">
             Can’t find what you're looking for?
             <br />
             Let’s Talk. We’d love to have a conversation tailored to your needs.
-          </h4>
+          </h3>
         </motion.div>
 
         {/* Accordion Section */}
