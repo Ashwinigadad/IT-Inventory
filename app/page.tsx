@@ -10,6 +10,8 @@ import KeyFeatures from "./components/KeyFeatures";
 import PricingOverview from "./components/PricingOverview";
 import Testimonials from "./components/Testimonials";
 import FAQs from "./components/FAQs";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <PricingOverview />
       <Testimonials />
       <FAQs />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }

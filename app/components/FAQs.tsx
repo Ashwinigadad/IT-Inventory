@@ -38,7 +38,7 @@ export default function FAQs() {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 max-w-5xl mx-auto text-black">
+    <section className="bg-white py-16 px-6 mx-auto text-black w-full">
       <h2 className="text-3xl font-bold text-center mb-10">FAQs</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -49,15 +49,15 @@ export default function FAQs() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="font-semibold text-lg mb-4 text-[#6C63FF]">
+          <h3 className="font-bold text-lg mb-4 text-[#6C63FF]">
             Your Questions, Answered with Clarity and Confidence
           </h3>
-          <p className="text-[#6C63FF]">
+          <p className="text-[#6C63FF] font-semibold">
             We're dedicated to supporting every aspect of your IT journey from
             onboarding to optimization.
           </p>
           <br />
-          <h3 className="font-semibold text-lg mb-4 text-[#6C63FF]">
+          <h3 className="font-bold text-lg mb-4 text-[#6C63FF]">
             Can’t find what you're looking for?
             <br />
             Let’s Talk. We’d love to have a conversation tailored to your needs.
