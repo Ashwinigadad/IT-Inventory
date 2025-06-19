@@ -9,6 +9,7 @@ import IndustriesSection from "./components/IndustriesSection";
 import KeyFeatures from "./components/KeyFeatures";
 import PricingOverview from "./components/PricingOverview";
 import Testimonials from "./components/Testimonials";
+import FAQs from "./components/FAQs";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <KeyFeatures />
       <PricingOverview />
       <Testimonials />
+      <FAQs />
     </div>
   );
 }
