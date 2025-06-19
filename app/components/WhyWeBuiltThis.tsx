@@ -30,7 +30,7 @@ export default function WhyWeBuilt() {
         </motion.h2>
 
         <motion.p
-          className="text-gray-700 text-base leading-relaxed text-center mb-8"
+          className="text-[#6C63FF] text-base leading-relaxed text-center mb-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}

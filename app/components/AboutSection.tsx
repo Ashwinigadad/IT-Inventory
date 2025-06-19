@@ -20,7 +20,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row items-center gap-8">
           <motion.div
-            className="text-gray-700 text-base leading-relaxed md:w-1/2"
+            className="text-[#6C63FF] text-base leading-relaxed md:w-1/2"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
