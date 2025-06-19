@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -53,14 +52,14 @@ export default function FAQs() {
             Your Questions, Answered with Clarity and Confidence
           </h3>
           <p className="text-[#6C63FF] font-semibold">
-            We're dedicated to supporting every aspect of your IT journey from
+            We&#39;re dedicated to supporting every aspect of your IT journey from
             onboarding to optimization.
           </p>
           <br />
           <h3 className="font-bold text-lg mb-4 text-[#6C63FF]">
-            Can’t find what you're looking for?
+            Can&#39;t find what you&#39;re looking for?
             <br />
-            Let’s Talk. We’d love to have a conversation tailored to your needs.
+            Let&#39;s Talk. We&#39;d love to have a conversation tailored to your needs.
           </h3>
         </motion.div>
 

@@ -37,7 +37,7 @@ export default function IndustriesSection() {
         }}
         viewport={{ once: true }}
       >
-        {industries.map((industry, index) => (
+        {industries.map((industry) => (
           <motion.div
             key={industry}
             className="border border-white text-white text-center px-6 py-6 rounded-xl text-sm sm:text-base font-medium shadow-md hover:shadow-xl transition-all duration-300 bg-[#6C63FF]/80 backdrop-blur-sm"

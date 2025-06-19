@@ -31,7 +31,7 @@ export default function ContactSection() {
             Ready to Elevate Your IT Asset Management?
           </h4>
           <p className="text-[#6C63FF] font-semibold">
-            Discover how our platform brings unmatched structure, efficiency, and control to your IT operations. From unifying your entire IT inventory into a single intelligent dashboard to automating asset discovery and reducing manual errors  we help you manage smarter, not harder. Stay ahead of renewals with proactive license and warranty alerts, enforce role-based access for enhanced security, and generate compliance-ready reports in just a few clicks. With seamless integration capabilities for Active Directory, GSuite, Azure, and more, our platform adapts to your workflows while ensuring enterprise-grade data security. Whether you're a growing business or a large enterprise, we’re here to transform your IT visibility and compliance with confidence.
+            Discover how our platform brings unmatched structure, efficiency, and control to your IT operations. From unifying your entire IT inventory into a single intelligent dashboard to automating asset discovery and reducing manual errors we help you manage smarter, not harder. Stay ahead of renewals with proactive license and warranty alerts, enforce role-based access for enhanced security, and generate compliance-ready reports in just a few clicks. With seamless integration capabilities for Active Directory, GSuite, Azure, and more, our platform adapts to your workflows while ensuring enterprise-grade data security. Whether you&#39;re a growing business or a large enterprise, we&#39;re here to transform your IT visibility and compliance with confidence.
           </p>
         </div>
 
