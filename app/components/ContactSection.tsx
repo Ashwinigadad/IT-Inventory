@@ -37,10 +37,10 @@ export default function ContactSection() {
 
         {/* Form Section */}
         <form className="bg-[#6C63FF] text-white rounded-lg p-6 space-y-4">
-          <Input placeholder="Full Name" className="bg-white text-black" />
-          <Input placeholder="Work Email" className="bg-white text-black" />
-          <Input placeholder="Phone" className="bg-white text-black" />
-          <Textarea placeholder="Enter your message" className="bg-white text-black" />
+          <Input placeholder="Full Name" className="border border-gray-300 bg-white text-black" />
+          <Input placeholder="Work Email" className="border border-gray-300 bg-white text-black" />
+          <Input placeholder="Phone" className="border border-gray-300 bg-white text-black" />
+          <Textarea placeholder="Enter your message" className="border border-gray-300 bg-white text-black" />
           <Button
             type="submit"
             className="bg-white text-[#6C63FF] hover:opacity-90 font-medium"
